@@ -1,0 +1,5 @@
+F:\Dev\Repos\ReMynd\ReMynderModels\bin\Debug\ReMynderModels.dll
+F:\Dev\Repos\ReMynd\ReMynderModels\bin\Debug\ReMynderModels.pdb
+F:\Dev\Repos\ReMynd\ReMynderModels\obj\Debug\ReMynderModels.csprojResolveAssemblyReference.cache
+F:\Dev\Repos\ReMynd\ReMynderModels\obj\Debug\ReMynderModels.dll
+F:\Dev\Repos\ReMynd\ReMynderModels\obj\Debug\ReMynderModels.pdb

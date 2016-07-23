@@ -1,0 +1,13 @@
+F:\Dev\Repos\ReMynd\ReMynd\bin\Debug\ReMynd.exe.config
+F:\Dev\Repos\ReMynd\ReMynd\bin\Debug\ReMynd.exe
+F:\Dev\Repos\ReMynd\ReMynd\bin\Debug\ReMynd.pdb
+F:\Dev\Repos\ReMynd\ReMynd\obj\Debug\ReMynd.csprojResolveAssemblyReference.cache
+F:\Dev\Repos\ReMynd\ReMynd\obj\Debug\ReMynd.NotificationIcon.resources
+F:\Dev\Repos\ReMynd\ReMynd\obj\Debug\ReMynd.csproj.GenerateResource.Cache
+F:\Dev\Repos\ReMynd\ReMynd\obj\Debug\ReMynd.exe
+F:\Dev\Repos\ReMynd\ReMynd\obj\Debug\ReMynd.pdb
+F:\Dev\Repos\ReMynd\ReMynd\obj\Debug\ReMynd.MainForm.resources
+F:\Dev\Repos\ReMynd\ReMynd\bin\Debug\RemynderCore.dll
+F:\Dev\Repos\ReMynd\ReMynd\bin\Debug\ReMynderModels.dll
+F:\Dev\Repos\ReMynd\ReMynd\bin\Debug\RemynderCore.pdb
+F:\Dev\Repos\ReMynd\ReMynd\bin\Debug\ReMynderModels.pdb

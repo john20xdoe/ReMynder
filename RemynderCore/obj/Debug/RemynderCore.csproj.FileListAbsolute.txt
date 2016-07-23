@@ -1,0 +1,7 @@
+F:\Dev\Repos\ReMynd\RemynderCore\obj\Debug\RemynderCore.csprojResolveAssemblyReference.cache
+F:\Dev\Repos\ReMynd\RemynderCore\bin\Debug\RemynderCore.dll
+F:\Dev\Repos\ReMynd\RemynderCore\bin\Debug\RemynderCore.pdb
+F:\Dev\Repos\ReMynd\RemynderCore\bin\Debug\ReMynderModels.dll
+F:\Dev\Repos\ReMynd\RemynderCore\bin\Debug\ReMynderModels.pdb
+F:\Dev\Repos\ReMynd\RemynderCore\obj\Debug\RemynderCore.dll
+F:\Dev\Repos\ReMynd\RemynderCore\obj\Debug\RemynderCore.pdb
