@@ -16,12 +16,19 @@ namespace ReMynder.Models
 	public class Reminder
 	{
 		private long Id {get;set;}
-		private DateTime DateTimeTrigger {get;set;}
-		private string Message {get;set;}
+		public DateTime Trigger { get; set; }
+		public string Message {get;set;}
+		public bool Closed { get; set;}
+		// TODO add interval for repettiive reminders		
+					
+		public void Close()
+		{
+			this.Closed = true;
+		}
 		
 		public Reminder()
 		{
-			
+			this.Closed = false;
 		}
 	}
 }

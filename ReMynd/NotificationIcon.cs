@@ -16,7 +16,7 @@ using ReMynder.Core;
 using ReMynder.Models;
 
 
-namespace ReMynd
+namespace ReMynder
 {
 	public sealed class NotificationIcon
 	{
@@ -32,7 +32,7 @@ namespace ReMynd
 			
 			notifyIcon.DoubleClick += IconDoubleClick;
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NotificationIcon));
-			notifyIcon.Icon = (Icon)resources.GetObject("$this.Icon");
+			notifyIcon.Icon = (Icon)resources.GetObject("do");
 			notifyIcon.ContextMenu = notificationMenu;
 		}
 		
@@ -52,8 +52,7 @@ namespace ReMynd
 			mainForm.Closed += MainForm_Closed; //subscribe to the Closed event
 			mainForm.Show();
 		}
-		#endregion
-		
+		#endregion		
 		
 		#region Event Handlers
 		private void menuAboutClick(object sender, EventArgs e)
@@ -63,7 +62,7 @@ namespace ReMynd
 		
 		private void menuExitClick(object sender, EventArgs e)
 		{
-			var x = MessageBox.Show("This will exit ReMynd. Confirm?","Confirm Exit",MessageBoxButtons.YesNo,MessageBoxIcon.Question,
+			var x = MessageBox.Show("This will exit ReMynder. Confirm?","Confirm Exit",MessageBoxButtons.YesNo,MessageBoxIcon.Question,
 			                MessageBoxDefaultButton.Button2);
 			if (x == DialogResult.Yes) 
 				Application.Exit();
@@ -76,9 +75,6 @@ namespace ReMynd
 		
 		private void MainForm_Closed(object sender, EventArgs e)
 		{
-			
-			//MainForm mf = (MainForm) sender;
-    		//MessageBox.Show(mf.Name);
     		Notify("ReMynd is still running in the taskbar.","Minimized",5000);
 		}
 		
@@ -121,7 +117,7 @@ namespace ReMynd
 			
 			bool isFirstInstance;
 			// Please use a unique name for the mutex to prevent conflicts with other programs
-			using (Mutex mtx = new Mutex(true, "ReMynd", out isFirstInstance)) {
+			using (Mutex mtx = new Mutex(true, "ReMynder", out isFirstInstance)) {
 				if (isFirstInstance) {
 					NotificationIcon notificationIcon = new NotificationIcon();
 					notificationIcon.notifyIcon.Visible = true;

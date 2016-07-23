@@ -9,8 +9,10 @@
 using System;
 using System.Drawing;
 using System.Windows.Forms;
+using ReMynder.Core;
+using ReMynder.Models;
 
-namespace ReMynd
+namespace ReMynder
 {
 	/// <summary>
 	/// Description of Form1.
@@ -24,10 +26,16 @@ namespace ReMynd
 			//
 			InitializeComponent();
 			
-			//
-			// TODO: Add constructor code after the InitializeComponent() call.
-			//
+			
+			
 		}
+		
+		protected override void OnLoad(EventArgs e)
+        {
+            base.OnLoad(e);
+            LoadReminders();
+        }
+
 		
 		private void MainForm_FormClose(object sender, FormClosingEventArgs e)
 		{
@@ -41,7 +49,7 @@ namespace ReMynd
 			
 		}
 		
-		void TxtReminderTextChanged(object sender, EventArgs e)
+		void txtReminderTextChanged(object sender, EventArgs e)
 		{
 			
 		}
@@ -49,7 +57,23 @@ namespace ReMynd
 		
 		void btnSetClick(object sender, EventArgs e)
 		{
+			ReMynderCore.Instance.Reminder(new Reminder()
+			{
+				Message = txtReminder.Text,
+				Trigger = dtTime.Value,
+				Closed = false
+			});
+			LoadReminders();
+		}
+		
+		void DataGridView1CellContentClick(object sender, DataGridViewCellEventArgs e)
+		{
 			
+		}
+		
+		private void LoadReminders()
+		{
+			dataGridView1.DataSource = ReMynderCore.Instance.Reminders();
 		}
 	}
 }

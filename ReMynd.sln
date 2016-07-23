@@ -2,11 +2,13 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 # SharpDevelop 4.4
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReMynd", "ReMynd\ReMynd.csproj", "{558364CC-0B0A-49B2-93C5-4E330DC4470B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReMynder", "ReMynd\ReMynder.csproj", "{558364CC-0B0A-49B2-93C5-4E330DC4470B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReMynderCore", "RemynderCore\RemynderCore.csproj", "{43354CAD-119B-4B1F-A379-3C8F194F8967}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReMynderModels", "ReMynderModels\ReMynderModels.csproj", "{083848F2-1093-4E47-A2DC-B6AC6EDDF815}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReMynderService", "ReMynderService\ReMynderService.csproj", "{84262931-031C-4FA0-A316-F358238C9022}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,5 +28,9 @@ Global
 		{083848F2-1093-4E47-A2DC-B6AC6EDDF815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{083848F2-1093-4E47-A2DC-B6AC6EDDF815}.Release|Any CPU.Build.0 = Release|Any CPU
 		{083848F2-1093-4E47-A2DC-B6AC6EDDF815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84262931-031C-4FA0-A316-F358238C9022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84262931-031C-4FA0-A316-F358238C9022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84262931-031C-4FA0-A316-F358238C9022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84262931-031C-4FA0-A316-F358238C9022}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 EndGlobal
